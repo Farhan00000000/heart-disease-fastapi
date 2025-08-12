@@ -82,13 +82,20 @@ To run the application on your local machine:
 The application is deployed live on Render and accessible at:  
 [https://heart-disease-fastapi.onrender.com](https://heart-disease-fastapi.onrender.com)
 
-Use the `/docs` endpoint on the live URL to explore and interact with the API.
+You can explore and interact with the API using the Swagger UI available at:  
+[https://heart-disease-fastapi.onrender.com/docs](https://heart-disease-fastapi.onrender.com/docs)
 
 ---
 
 ## Author
 
-Farhan
+[Farhan00000000](https://github.com/Farhan00000000)
+
+---
+
+## Project
+
+FastAPI + Docker + Deployment (Heart Disease Prediction)
 
 ---
 
