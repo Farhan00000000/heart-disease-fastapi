@@ -35,3 +35,10 @@ def predict(data: HeartDiseaseInput):
 @app.get("/")
 def root():
     return {"message": "Welcome to the Heart Disease Prediction API. Please visit /docs for API documentation."}
+@app.get("/")
+def root():
+    return {
+        "message": "Welcome to the Heart Disease Prediction API.",
+        "documentation_url": "https://heart-disease-fastapi.onrender.com/docs",
+        "note": "Please visit the documentation URL to explore and test the API endpoints."
+    }
