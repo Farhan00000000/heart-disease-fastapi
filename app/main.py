@@ -32,9 +32,7 @@ def predict(data: HeartDiseaseInput):
     ]]
     prediction = model.predict(input_data)[0]
     return {"heart_disease": bool(prediction)}
-@app.get("/")
-def root():
-    return {"message": "Welcome to the Heart Disease Prediction API. Please visit /docs for API documentation."}
+
 @app.get("/")
 def root():
     return {
