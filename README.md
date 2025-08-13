@@ -85,6 +85,8 @@ The application is deployed live on Render and accessible at:
 You can explore and interact with the API using the Swagger UI available at:  
 [https://heart-disease-fastapi.onrender.com/docs](https://heart-disease-fastapi.onrender.com/docs)
 
+Make sure that Docker Desktop is on in your machine.
+
 ---
 
 ## Author
